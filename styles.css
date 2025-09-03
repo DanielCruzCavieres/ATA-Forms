@@ -55,3 +55,51 @@ dialog{border:0;background:transparent}
 .step{background:#0e1536;border:1px solid #223068;border-radius:.6rem;padding:.75rem}
 .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.5rem}
 .gallery img{width:100%;height:120px;object-fit:cover;border-radius:.5rem;border:1px solid #2a3a7a}
+
+/* ===== Overrides de tema rojo/negro (no cambian layout) ===== */
+:root{
+  --bg:#0a0a0a;           /* fondo base negro */
+  --card:#1a0000;         /* tarjetas rojo muy oscuro */
+  --muted:#cfcfcf;        /* texto secundario */
+  --text:#ffffff;         /* texto principal */
+  --accent:#e50914;       /* rojo principal (botones/badges) */
+  --accent-2:#ff4d4d;     /* rojo secundario */
+}
+
+/* Header: solo colores */
+.app-header{
+  background:linear-gradient(180deg,#330000 0%, #0a0a0a 70%);
+  border-bottom-color:#5a0000;
+}
+
+/* Controles (buscador y selects): solo colores/borde */
+.search, select{
+  background:#150000;
+  border-color:#5a0000;
+  color:var(--text);
+}
+
+/* Sidebar y tarjetas: solo colores/bordes */
+.sidebar{
+  background:#140000;
+  border-color:#5a0000;
+}
+
+.card{
+  background:var(--card);
+  border-color:#5a0000;
+}
+
+.thumb{ border-bottom-color:#5a0000; background:#000; }
+
+/* Botones */
+.btn.view{ background:var(--accent); color:#fff; border:0; }
+.btn.secondary{ background:#2a0000; border-color:#5a0000; color:#fff; }
+
+/* Modal y elementos internos: solo bordes/fondos */
+.modal{ background:#160000; border-color:#5a0000; }
+.modal-header{ border-bottom-color:#5a0000; }
+.video-wrap{ background:#000; border-color:#5a0000; }
+.step{ background:#1b0000; border-color:#5a0000; }
+.gallery img{ border-color:#5a0000; }
+
