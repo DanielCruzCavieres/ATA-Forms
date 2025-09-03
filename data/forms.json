@@ -4,7 +4,7 @@
     "name": "Songahm 1",
     "rank": "Blanco",
     "category": "Formas",
-    "youtubeUrl": "https://www.youtube.com/watch?v=VIDEO_ID_REEMPLAZAR",
+    "youtubeUrl": "https://www.youtube.com/watch?v=71d4-MkyZs0",
     "duration": "~3 min",
     "steps": [
       {
@@ -52,11 +52,169 @@
     ]
   },
   {
+    "id": "songahm-3",
+    "name": "Songahm 3",
+    "rank": "Amarillo",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IhHUvMwey2Y",
+    "duration": "~1 min",
+    "steps": [
+      {
+        "title": "Atención y saludo",
+        "text": "Posición inicial, enfoque y respeto antes de iniciar la forma.",
+        "timecode": 5,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Atencion+y+saludo"
+      },
+      {
+        "title": "Primer bloque bajo",
+        "text": "Giro a la izquierda, paso hacia adelante, bloqueo bajo (arae makki).",
+        "timecode": 15,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Bloque+bajo"
+      }
+    ],
+    "images": [
+      "https://via.placeholder.com/640x360?text=Vista+frontal",
+      "https://via.placeholder.com/640x360?text=Vista+lateral"
+    ]
+  },
+   {
+    "id": "songahm-4",
+    "name": "Songahm 4",
+    "rank": "Camuflado",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ZMi83SPAP1Q",
+    "duration": "~1 min",
+    "steps": [
+      {
+        "title": "Atención y saludo",
+        "text": "Posición inicial, enfoque y respeto antes de iniciar la forma.",
+        "timecode": 5,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Atencion+y+saludo"
+      },
+      {
+        "title": "Primer bloque bajo",
+        "text": "Giro a la izquierda, paso hacia adelante, bloqueo bajo (arae makki).",
+        "timecode": 15,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Bloque+bajo"
+      }
+    ],
+    "images": [
+      "https://via.placeholder.com/640x360?text=Vista+frontal",
+      "https://via.placeholder.com/640x360?text=Vista+lateral"
+    ]
+  },
+   {
+    "id": "songahm-5",
+    "name": "Songahm 5",
+    "rank": "Verde",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=R-tqIae7CUY",
+    "duration": "~1 min",
+    "steps": [
+      {
+        "title": "Atención y saludo",
+        "text": "Posición inicial, enfoque y respeto antes de iniciar la forma.",
+        "timecode": 5,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Atencion+y+saludo"
+      },
+      {
+        "title": "Primer bloque bajo",
+        "text": "Giro a la izquierda, paso hacia adelante, bloqueo bajo (arae makki).",
+        "timecode": 15,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Bloque+bajo"
+      }
+    ],
+    "images": [
+      "https://via.placeholder.com/640x360?text=Vista+frontal",
+      "https://via.placeholder.com/640x360?text=Vista+lateral"
+    ]
+  },
+  {
+    "id": "in-wh-1",
+    "name": "In Wha 1",
+    "rank": "Púrpura",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=BYnbVnx4zlI",
+    "duration": "~3 min",
+    "steps": [
+      {
+        "title": "Inicio",
+        "text": "Postura lista, respiración y enfoque.",
+        "timecode": 3
+      }
+    ],
+    "images": []
+  },
+  {
     "id": "in-wh-2",
-    "name": "In Wha 2 (Ejemplo)",
+    "name": "In Wha 2",
+    "rank": "Azul",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=0M2eU1fgSXw",
+    "duration": "~3 min",
+    "steps": [
+      {
+        "title": "Inicio",
+        "text": "Postura lista, respiración y enfoque.",
+        "timecode": 3
+      }
+    ],
+    "images": []
+  },
+    {
+    "id": "Choong jung 1",
+    "name": "Choong jung 1",
+    "rank": "Cafe",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_EHpSG0cBX8",
+    "duration": "~3 min",
+    "steps": [
+      {
+        "title": "Inicio",
+        "text": "Postura lista, respiración y enfoque.",
+        "timecode": 3
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "Choong jung 2",
+    "name": "Choong jung 2",
+    "rank": "Rojo",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=7Fp2N_1GvnQ",
+    "duration": "~3 min",
+    "steps": [
+      {
+        "title": "Inicio",
+        "text": "Postura lista, respiración y enfoque.",
+        "timecode": 3
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": "Choong jung 2",
+    "name": "Choong jung 2",
+    "rank": "Rojo-Negro",
+    "category": "Formas",
+    "youtubeUrl": https://www.youtube.com/watch?v=7Fp2N_1GvnQ",
+    "duration": "~3 min",
+    "steps": [
+      {
+        "title": "Inicio",
+        "text": "Postura lista, respiración y enfoque.",
+        "timecode": 3
+      }
+    ],
+    "images": []
+  },
+ {
+    "id": "Shim jun",
+    "name": "Shim jun",
     "rank": "Negro",
     "category": "Formas",
-    "youtubeUrl": "https://www.youtube.com/watch?v=VIDEO_ID_REEMPLAZAR",
+    "youtubeUrl":   https://www.youtube.com/watch?v=IrImEwBcmWM",
     "duration": "~3 min",
     "steps": [
       {
