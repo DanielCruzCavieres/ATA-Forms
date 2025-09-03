@@ -26,6 +26,32 @@
     ]
   },
   {
+    "id": "songahm-2",
+    "name": "Songahm 2",
+    "rank": "Naranja",
+    "category": "Formas",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6q2oafhIBbM",
+    "duration": "~1 min",
+    "steps": [
+      {
+        "title": "Atención y saludo",
+        "text": "Posición inicial, enfoque y respeto antes de iniciar la forma.",
+        "timecode": 5,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Atencion+y+saludo"
+      },
+      {
+        "title": "Primer bloque bajo",
+        "text": "Giro a la izquierda, paso hacia adelante, bloqueo bajo (arae makki).",
+        "timecode": 15,
+        "imageUrl": "https://via.placeholder.com/640x360?text=Bloque+bajo"
+      }
+    ],
+    "images": [
+      "https://via.placeholder.com/640x360?text=Vista+frontal",
+      "https://via.placeholder.com/640x360?text=Vista+lateral"
+    ]
+  },
+  {
     "id": "in-wh-2",
     "name": "In Wha 2 (Ejemplo)",
     "rank": "Negro",
