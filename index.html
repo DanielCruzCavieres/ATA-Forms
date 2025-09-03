@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ATA Forms Hub</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="app-header">
+    <h1>ATA Forms Hub</h1>
+    <input id="searchInput" class="search" type="search" placeholder="Buscar forma, cinturón, arma…" />
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <h2>Filtros</h2>
+      <div class="filter-group">
+        <label for="rankFilter">Cinturón</label>
+        <select id="rankFilter">
+          <option value="">Todos</option>
+          <option>Blanco</option>
+          <option>Naranja</option>
+          <option>Amarillo</option>
+          <option>Verde</option>
+          <option>Púrpura</option>
+          <option>Azul</option>
+          <option>Marrón</option>
+          <option>Rojo</option>
+          <option>Negro</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="categoryFilter">Categoría</label>
+        <select id="categoryFilter">
+          <option value="">Todas</option>
+          <option>Formas</option>
+          <option>Armas: Bong Mangi (Doble)</option>
+          <option>Armas: Bong (Bo)</option>
+          <option>Armas: Ssahng Jeol Bong (Nunchaku)</option>
+          <option>Armas: Bahng Mahng Ee (Escrima)</option>
+          <option>Otras</option>
+        </select>
+      </div>
+      <button id="clearFilters" class="btn secondary">Limpiar filtros</button>
+      <hr/>
+      <details>
+        <summary>¿Cómo agregar contenido?</summary>
+        <ol>
+          <li>Edita <code>data/forms.json</code> para añadir nuevas formas.</li>
+          <li>Sube tus fotos a un servidor (p. ej., Cloudinary/GitHub) y pega sus URLs.</li>
+          <li>Pega el link de YouTube y el sistema extraerá el ID automáticamente.</li>
+        </ol>
+      </details>
+    </aside>
+
+    <section class="content">
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <dialog id="detailModal">
+    <article class="modal">
+      <header class="modal-header">
+        <h3 id="modalTitle">Detalle</h3>
+        <button class="icon-btn" id="closeModal" aria-label="Cerrar">✕</button>
+      </header>
+      <div class="modal-body">
+        <div id="videoWrap" class="video-wrap"></div>
+        <div id="meta"></div>
+        <h4>Pasos</h4>
+        <ol id="steps" class="steps"></ol>
+        <h4>Galería</h4>
+        <div id="gallery" class="gallery"></div>
+      </div>
+    </article>
+  </dialog>
+
+  <footer class="app-footer">
+    <small>Proyecto abierto. Solo contenido ATA.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
